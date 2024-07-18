@@ -21,7 +21,7 @@ export default class Cliente implements ICliente{
         this._id = id
     }
     get nickName():string{
-        return this.nickName
+        return this._nickName
     }
 
     set nickName(nickName:string){
@@ -29,10 +29,10 @@ export default class Cliente implements ICliente{
     }
 
     get usuarioId():number{
-        return this.usuarioId
+        return this._usuarioId
     }
     set usuarioId(usuarioId:number){
-        this.usuarioId = usuarioId
+        this._usuarioId = usuarioId
     }
 
     get password():string{
