@@ -19,6 +19,7 @@ export async function InserirNaDB(user:Barbeiro):Promise<Retorno>{
       }
 }
 
+// teste
 export async function SelecionarTodosNaDB():Promise<Barbeiro[] | null>{
     
     try {
