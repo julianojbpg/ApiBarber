@@ -46,5 +46,5 @@ export  class Usuario implements IUser {
 }
 
 
-export const user: IUser  = new Usuario('hugo','hugo@mail.com','123',1)
+
 
